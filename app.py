@@ -6,8 +6,8 @@ app = Flask(__name__)
 
 cap = cv2.VideoCapture(0)
 
-fourcc = cv2.VideoWriter_fourcc(*"MP4V")
-out = cv2.VideoWriter("out.mp4", fourcc, 20.0, (640, 480))
+# fourcc = cv2.VideoWriter_fourcc(*"MP4V")
+# out = cv2.VideoWriter("out.mp4", fourcc, 20.0, (640, 480))
 
 face_cascade = cv2.CascadeClassifier("facedetectdataset.xml")
 
